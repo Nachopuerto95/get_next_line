@@ -16,9 +16,11 @@
 
 > Every time we call this function, we will recive the next line of the file descriptor given \
 
+```html
 	🚀 You will understand how files are opened, read and closed in an OS,
-    and how they are interpreted by a programming language, we will learn
-    about file descriptor, handling buffers and dynamic memory.
+	and how they are interpreted by a programming language, we will learn
+    	about file descriptor, handling buffers and dynamic memory.
+```
 
 > [!NOTE]  
 > Because of 42 School norm requirements:

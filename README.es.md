@@ -1,16 +1,17 @@
 ## 📜 Sobre el Proyecto
 
-> Cada vez que llamamos a esta función, recibiremos la siguiente línea del descriptor de archivo dado.
+> Cada vez que llamamos a esta función, recibiremos la siguiente línea del descriptor de archivo dado. \
 
-🚀 Aprenderás cómo se abren, leen y cierran los archivos en un sistema operativo,
-y cómo son interpretados por un lenguaje de programación. Aprenderemos
-sobre descriptores de archivo, manejo de buffers y memoria dinámica.
+  🚀 Aprenderás cómo se abren, leen y cierran los archivos en un sistema operativo,
+    y cómo son interpretados por un lenguaje de programación. Aprenderemos
+    sobre descriptores de archivo, manejo de buffers y memoria dinámica.
 
-> \[!NOTA]
+> [!NOTA]
 > Debido a los requisitos de la norma de la Escuela 42:
 > * Cada función no puede tener más de 25 líneas de código.
 > * Todas las variables deben ser declaradas y alineadas al inicio de cada función.
 > * El proyecto debe realizarse únicamente con funciones permitidas.
+<br>
 
 ### 🛠️ Uso
 

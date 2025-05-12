@@ -1,3 +1,17 @@
+<p align="end">
+   <strong>🌐 Change language:</strong><br>
+   <a href="README.es.md">
+    <img src="https://github.com/Nachopuerto95/multilang/blob/main/ES.png" alt="Español" width="50">
+  </a>&nbsp;&nbsp;&nbsp;
+  <a href="/README.md">
+    <img src="https://github.com/Nachopuerto95/multilang/blob/main/EN.png" alt="English" width="50">
+  </a>
+</p>
+
+<h1>🧵 Get_next_line (42 cursus)</h1>
+
+<img src="https://github.com/Nachopuerto95/multilang/blob/main/42-Madrid%20-%20Edited.jpg">
+
 ## 📜 Sobre el Proyecto
 
 > Cada vez que llamamos a esta función, recibiremos la siguiente línea del descriptor de archivo dado. \

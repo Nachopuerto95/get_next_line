@@ -70,7 +70,7 @@ printf("%s", get_next_line(fd2);
 ```
 output:
 
-```bash
+```html
 $ > In a village of La Mancha, the name of which I have no desire to call to mind...
 $ > Mr. and Mrs. Dursley, of number four, Privet Drive, were proud to say that they were perfectly normal, thank you very much.
 $ > Not long ago there lived a gentleman of the type who keeps a lance in the rack, an old shield, a lean horse, and a fast greyhound.

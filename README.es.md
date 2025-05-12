@@ -16,9 +16,11 @@
 
 > Cada vez que llamamos a esta función, recibiremos la siguiente línea del descriptor de archivo dado. \
 
+```html
      🚀 Aprenderás cómo se abren, leen y cierran los archivos en un sistema operativo,
          y cómo son interpretados por un lenguaje de programación. Aprenderemos
          sobre descriptores de archivo, manejo de buffers y memoria dinámica.
+```
 
 > [!NOTA]
 > Debido a los requisitos de la norma de la Escuela 42:

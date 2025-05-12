@@ -22,7 +22,7 @@
          sobre descriptores de archivo, manejo de buffers y memoria dinámica.
 ```
 
-> [!NOTA]
+> [!NOTE]
 > Debido a los requisitos de la norma de la Escuela 42:
 > * Cada función no puede tener más de 25 líneas de código.
 > * Todas las variables deben ser declaradas y alineadas al inicio de cada función.

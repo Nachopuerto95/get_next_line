@@ -51,3 +51,33 @@ char	*line;
 fd = open(file, O_RDONLY);
 line = get_next_line(fd);
 ```
+
+To use the "bonus part" you just need to open two file descriptors, then you can alternate between calls and you will get a mix of both,
+see this example alternating the first 3 lines of harry potter and quixote
+
+```c
+int	fd1;
+int	fd2;
+
+fd1 = open("HarryPotter", O_RDONLY);
+fd2 = open("Quixote", O_RDONLY);
+printf("%s", get_next_line(fd1);
+printf("%s", get_next_line(fd2);
+printf("%s", get_next_line(fd1);
+printf("%s", get_next_line(fd2);
+printf("%s", get_next_line(fd1);
+printf("%s", get_next_line(fd2);
+```
+output:
+
+```shell
+$ > In a village of La Mancha, the name of which I have no desire to call to mind...
+$ > Mr. and Mrs. Dursley, of number four, Privet Drive, were proud to say that they were perfectly normal, thank you very much.
+$ > Not long ago there lived a gentleman of the type who keeps a lance in the rack, an old shield, a lean horse, and a fast greyhound.
+$ > They were the last people you'd expect to be involved in anything strange or mysterious, because they just didn’t hold with such nonsense.
+$ > A stew made more often of beef than lamb, hash most nights, and scrambled eggs and scraps on Saturdays...
+$ > Mr. Dursley was the director of a firm called Grunnings, which made drills.
+$ >
+```
+
+

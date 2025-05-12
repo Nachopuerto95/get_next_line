@@ -42,4 +42,12 @@ and, when compiling your code, add the source files and the required flag:
 ```shell
 get_next_line.c get_next_line_utils.c -D BUFFER_SIZE=<size>
 ```
+Then you just need to call the function passing a fd, Example:
 
+```c
+int	fd;
+char	*line;
+
+fd = open(file, O_RDONLY);
+line = get_next_line(0);
+```

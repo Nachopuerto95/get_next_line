@@ -49,5 +49,5 @@ int	fd;
 char	*line;
 
 fd = open(file, O_RDONLY);
-line = get_next_line(0);
+line = get_next_line(fd);
 ```
